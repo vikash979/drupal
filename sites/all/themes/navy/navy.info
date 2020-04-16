@@ -1,0 +1,46 @@
+
+name = navy
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/javascriptop.css
+stylesheets[all][] = css/simple-accordion.css
+stylesheets[all][] = css/simple.css
+
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+scripts[] = js/jquery.simple.accoridion.js
+regions[whats_new] = Whats New
+regions[publication] = Publication
+regions[policy] = Policy
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[new_policy] = New_policy
+regions[navypublication] = Navypublication
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2019-12-18
+version = "7.69"
+project = "drupal"
+datestamp = "1576696221"

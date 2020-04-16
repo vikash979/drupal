@@ -1,0 +1,2242 @@
+﻿@font-face {
+    font-family: proxima_nova_rgregular;
+    src: url(fonts/proximanova-reg.eot);
+    src: url(fonts/proximanova-reg.eot?#iefix) format('embedded-opentype'),url(fonts/proximanova-reg.woff2) format('woff2'),url(fonts/proximanova-reg.woff) format('woff'),url(fonts/proximanova-reg.ttf) format('truetype'),url(fonts/proximanova-reg.svg#proxima_nova_rgregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: proxima_novasemibold;
+    src: url(fonts/proximanova-sbold.eot);
+    src: url(fonts/proximanova-sbold.eot?#iefix) format('embedded-opentype'),url(fonts/proximanova-sbold.woff2) format('woff2'),url(fonts/proximanova-sbold.woff) format('woff'),url(fonts/proximanova-sbold.ttf) format('truetype'),url(fonts/proximanova-sbold.svg#proxima_novasemibold) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: proxima_nova_rgbold;
+    src: url(fonts/proximanova-bold.eot);
+    src: url(fonts/proximanova-bold.eot?#iefix) format('embedded-opentype'),url(fonts/proximanova-bold.woff2) format('woff2'),url(fonts/proximanova-bold.woff) format('woff'),url(fonts/proximanova-bold.ttf) format('truetype'),url(fonts/proximanova-bold.svg#proxima_nova_rgbold) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: oswaldlight;
+    src: url(fonts/oswald-light-webfont.eot);
+    src: url(fonts/oswald-light-webfont.eot?#iefix) format('embedded-opentype'),url(fonts/oswald-light-webfont.woff2) format('woff2'),url(fonts/oswald-light-webfont.woff) format('woff'),url(fonts/oswald-light-webfont.ttf) format('truetype'),url(fonts/oswald-light-webfont.svg#oswaldlight) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: oswaldbook;
+    src: url(fonts/oswald-regular-webfont.eot);
+    src: url(fonts/oswald-regular-webfont.eot?#iefix) format('embedded-opentype'),url(fonts/oswald-regular-webfont.woff2) format('woff2'),url(fonts/oswald-regular-webfont.woff) format('woff'),url(fonts/oswald-regular-webfont.ttf) format('truetype'),url(fonts/oswald-regular-webfont.svg#oswaldbook) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: oswaldbold;
+    src: url(fonts/oswald-bold-webfont.eot);
+    src: url(fonts/oswald-bold-webfont.eot?#iefix) format('embedded-opentype'),url(fonts/oswald-bold-webfont.woff2) format('woff2'),url(fonts/oswald-bold-webfont.woff) format('woff'),url(fonts/oswald-bold-webfont.ttf) format('truetype'),url(fonts/oswald-bold-webfont.svg#oswaldbold) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.socialLinks {
+    width: 42px;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+    .socialLinks li a {
+        height: 35px;
+        display: block;
+        overflow: hidden;
+        text-indent: -999em;
+        position: relative;
+        border-bottom: 1px solid #118fdf;
+        background-color: #1b99e8
+    }
+
+        .socialLinks li a:hover {
+            background-color: #04116b
+        }
+
+    .socialLinks li:last-child a {
+        border-bottom: none
+    }
+
+    .socialLinks li a.fb:before {
+        width: 11px;
+        height: 20px;
+        left: 17px;
+        top: 8px;
+        background-position: 0 -52px
+    }
+
+    .socialLinks li a.fb:hover {
+        background-color: #3b5998
+    }
+
+    .socialLinks li a.tw:before {
+        width: 18px;
+        height: 16px;
+        left: 13px;
+        top: 10px;
+        background-position: -21px -52px
+    }
+
+    .socialLinks li a.tw:hover {
+        background-color: #4099ff
+    }
+
+    .socialLinks li a.gp:before {
+        width: 19px;
+        height: 20px;
+        left: 13px;
+        top: 7px;
+        background-position: -48px -52px
+    }
+
+    .socialLinks li a.gp:hover {
+        background-color: #dd4b39
+    }
+
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y
+}
+
+    .owl-carousel .owl-wrapper {
+        display: none;
+        position: relative;
+        -webkit-transform: translate3d(0,0,0)
+    }
+
+    .owl-carousel .owl-wrapper-outer {
+        overflow: hidden;
+        position: relative;
+        width: 100%
+    }
+
+        .owl-carousel .owl-wrapper-outer.animated {
+            -webkit-animation-duration: .3s;
+            animation-duration: .3s
+        }
+
+        .owl-carousel .owl-wrapper-outer.autoHeight {
+            -webkit-transition: height .5s ease-in-out;
+            -moz-transition: height .5s ease-in-out;
+            -ms-transition: height .5s ease-in-out;
+            -o-transition: height .5s ease-in-out;
+            transition: height .5s ease-in-out
+        }
+
+    .owl-carousel .owl-item {
+        float: left
+    }
+
+.owl-controls .owl-buttons div, .owl-controls .owl-page {
+    cursor: pointer
+}
+
+.owl-controls {
+    -webkit-tap-highlight-color: transparent
+}
+
+.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0)
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center
+}
+
+    .owl-theme .owl-controls .owl-buttons div {
+        color: #fff;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background: #869791
+    }
+
+    .owl-theme .owl-controls.clickable .owl-buttons div:hover {
+        opacity: 1;
+        text-decoration: none
+    }
+
+    .owl-theme .owl-controls .owl-page {
+        display: inline-block
+    }
+
+        .owl-theme .owl-controls .owl-page span {
+            display: block;
+            width: 12px;
+            height: 12px;
+            margin: 5px 7px;
+            opacity: .5;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            background: #869791
+        }
+
+        .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+            opacity: 1
+        }
+
+        .owl-theme .owl-controls .owl-page span.owl-numbers {
+            height: auto;
+            width: auto;
+            color: #fff;
+            padding: 2px 10px;
+            font-size: 12px;
+            -webkit-border-radius: 30px;
+            border-radius: 30px
+        }
+
+.owl-item.loading {
+    min-height: 150px;
+    background: url(../images/ajaxLoader.gif) no-repeat center center
+}
+
+.socialLinks {
+    width: 42px;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+    .socialLinks li a {
+        height: 35px;
+        display: block;
+        overflow: hidden;
+        text-indent: -999em;
+        position: relative;
+        border-bottom: 1px solid #118fdf;
+        background-color: #1b99e8
+    }
+
+        .socialLinks li a:hover {
+            background-color: #04116b
+        }
+
+    .socialLinks li:last-child a {
+        border-bottom: none
+    }
+
+    .socialLinks li a.fb:before {
+        width: 11px;
+        height: 20px;
+        left: 17px;
+        top: 8px;
+        background-position: 0 -52px
+    }
+
+    .socialLinks li a.fb:hover {
+        background-color: #3b5998
+    }
+
+    .socialLinks li a.tw:before {
+        width: 18px;
+        height: 16px;
+        left: 13px;
+        top: 10px;
+        background-position: -21px -52px
+    }
+
+    .socialLinks li a.tw:hover {
+        background-color: #4099ff
+    }
+
+    .socialLinks li a.gp:before {
+        width: 19px;
+        height: 20px;
+        left: 13px;
+        top: 7px;
+        background-position: -48px -52px
+    }
+
+    .socialLinks li a.gp:hover {
+        background-color: #dd4b39
+    }
+
+.r-tabs .owl-carousel .owl-item {
+    width: 282px !important;
+    position: relative
+}
+
+.homeCarouselTabs.owl-carousel .owl-item:last-child {
+    padding-bottom: 9px !important
+}
+
+.r-tabs .owl-carousel .owl-item .overlayBg {
+    background-color: rgba(0,0,0,.5)
+}
+
+.r-tabs .owl-carousel .item {
+    position: relative;
+    border-right: 1px solid #272b42;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.r-tabs .owl-carousel .r-tabs .owl-carousel .owl-item:last-child .item {
+    border: none
+}
+
+.r-tabs .owl-carousel .item img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 250ms ease;
+    transition: 250ms ease
+}
+
+.r-tabs .owl-carousel .item:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.r-tabs .owl-carousel .item a {
+    text-decoration: none
+}
+
+.r-tabs .owl-carousel .item:hover .item-info.hover a {
+    padding: 27px 10px 23px;
+    -webkit-transition: 250ms ease;
+    transition: 250ms ease
+}
+
+.item-info {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 18px 10px 14px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.357em;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: 250ms ease;
+    transition: 250ms ease;
+    background-color: rgba(52,57,88,.8)
+}
+
+.r-tabs .owl-carousel .item .active .item-info, .r-tabs .owl-carousel .item:hover .item-info {
+    background-color: rgba(1,119,201,.8)
+}
+
+.r-tabs .otherTabLinks h3 {
+    font: 1.6em proxima_novasemibold;
+    text-transform: uppercase
+}
+
+.wob #accessControl input.current, .wob #accessControl input:hover, .wob #nav > .highlight > a, .wob #nav > li.focus > a, .wob #nav > li.hover > a, .wob #nav > li > a:hover, .wob .carouselBlock .item a:hover, .wob .emailUSForm .asterix, .wob .emailUSForm span.error, .wob .innerContent #amieligible_form .select span.error, .wob .innerContent #amieligible_form .text span.error, .wob .innerContent .responsiveTable a, .wob .innerContent .sideContant h1, .wob .innerContent .sitemap ul li a, .wob .innerContent .sitemap > ul > li > a, .wob .innerContent ul.bulletText li, .wob .joinIndianNavy a, .wob .joinIndianNavy a:hover strong, .wob .mediaGallery .box h3, .wob .navalUnitsLogos li .unitWrap .unitName h2 a:hover, .wob .scrollLogoBlock .item .unitWrap .unitName .titleName, .wob .sideNav ul li a, .wob .tabber .tabContent .activityTicker li .date, .wob .tabber .tabNav li a:hover, .wob .tabber .tabNav li.r-tabs-state-active a, .wob .titlebar .downloadMobileApp a, .wob a {
+    color: #80ff00
+}
+
+    .wob .carouselBlock .item a, .wob .eligFull #amieligible_form input[type=submit]:hover, .wob .emailUSForm .form-group .selectBox > .selectboxit-container.selectboxit-container .selectboxit, .wob .emailUSForm .form-group .selectBox > .selectboxit-container.selectboxit-container .selectboxit-list li a, .wob .emailUSForm .form-group input, .wob .emailUSForm .form-group label, .wob .emailUSForm .form-group select, .wob .emailUSForm .form-group textarea, .wob .innerContent .r-tabs h3, .wob .innerContent .rightContant p, .wob .innerContent .sideContant h2, .wob .innerContent .sitemap ul ul ul li a, .wob .joinIndianNavy a strong, .wob .joinIndianNavy a:hover, .wob .panel.panel-default h1, .wob .scrollLogoBlock .item .unitWrap .unitName .subTitleName, .wob .scrollLogoBlock .item .unitWrap .unitName .titleName:hover, .wob .searchFormBlock .form-group input, .wob .sideNav ul li a:hover, .wob .tabber .tabContent .activityTicker li p a, .wob .tabber .tabContent .activityTicker li p a:hover, .wob .tabber .tabNav li a, .wob .titlebar .downloadMobileApp a:hover, .wob a:hover {
+        color: #fff
+    }
+
+.wob #wrapper, .wob .eligFull #amieligible_form input[type=submit], .wob .govtLogosOuter, .wob .topStrip li.search .inputSearch .go, .wob .topStrip li.search .inputSearch .go:hover {
+    border-color: #222
+}
+
+.wob .joinIndianNavy, .wob .navLinks a, .wob .sideNav ul li, .wob .tabber, .wob .tabber .tabNav li {
+    border-color: #282828
+}
+
+.wob #nav li a:hover:before, .wob #nav li.focus a:before, .wob #nav li:hover > a:before, .wob #nav ul li a, .wob .carouselBlock .item, .wob .carouselBlock .item a:before, .wob .eligFull #amieligible_form input[type=submit]:hover, .wob .emailUSForm, .wob .emailUSForm .form-group .selectBox > .selectboxit-container.selectboxit-container, .wob .emailUSForm .form-group input, .wob .emailUSForm .form-group select, .wob .emailUSForm .form-group textarea, .wob .emailUSForm .selectBox > .selectboxit-container .selectboxit-list, .wob .emailUSForm .selectBox > .selectboxit-container .selectboxit-list li, .wob .innerContent #amieligible_form .text input, .wob .searchFormBlock .form-group input, .wob .searchListing li, .wob .selectboxit-container .selectboxit-list li a, .wob .serviceTabMain, .wob .serviceTabMain .tabContainer, .wob .socialLinks li a, .wob hr {
+    border-color: #444
+}
+
+    .wob .carouselBlock .item a:hover:before, .wob .faqTab .tabNav li, .wob .resTab .tabNav li, .wob .topStrip .leftLinks li, .wob .topStrip .rightLinks li {
+        border-color: #80ff00
+    }
+
+        .wob .homeCarouselTabs a .item-info, .wob .mainNavigation, .wob .resTab .tabNav li a, .wob .serviceTabMain, .wob .topStrip li.search .inputSearch .go {
+            background-color: #111
+        }
+
+            .wob .contactUs li a, .wob .emailUSForm, .wob .emailUSForm .selectBox > .selectboxit-container .selectboxit-list, .wob .executiveBranchMain, .wob .innerContent #amieligible_form .text input, .wob .innerContent .conRecurt, .wob .logobar, .wob .mediaGallery .box .info .view, .wob .navbar, .wob .notFound, .wob .recruiterContactList ul li a, .wob .scroller, .wob .searchFormBlock .form-group input, .wob .serviceTabMain .tabContainer, .wob .sideNav ul li a:before, .wob .socialLinks li a, .wob .tabber .tabNav li a:hover, .wob .tabber .tabNav li.r-tabs-state-active a, .wob .topStrip li.search .inputSearch .go:hover, .wob .topStrip li.search a, .wob .videoGallery li .caption:hover {
+                background-color: #222
+            }
+
+                .view a:hover, .wob #nav ul li a, .wob .carouselBlock.owl-theme .owl-nav .owl-next, .wob .carouselBlock.owl-theme .owl-nav .owl-prev, .wob .contactUs li a:hover, .wob .eligFull #amieligible_form input[type=submit]:hover, .wob .emailUSForm .form-group .selectBox > .selectboxit-container.selectboxit-container, .wob .emailUSForm .form-group input, .wob .emailUSForm .form-group select, .wob .emailUSForm .form-group textarea, .wob .mediaGallery .box .info, .wob .recruiterContactList ul li a:hover, .wob .scrollLogoBlock, .wob .sideNav ul li a:hover:before, .wob .socialLinks li a:hover, .wob .titlebar .downloadMobileApp, .wob .topStrip li.search .inputSearch, .wob .topStrip li.search a.active, .wob .topStrip li.search a:hover {
+                    background-color: #333
+                }
+
+.wob .titlebar {
+    background-color: #111
+}
+
+.wob #wrapper {
+    background: #333
+}
+
+.wob #logo img {
+    display: none
+}
+
+.wob.app #logo img {
+    display: block
+}
+
+.wob.app img {
+    display: none
+}
+
+    .wob.app img.emblem-wob {
+        display: inline-block
+    }
+
+.wob #logo img.white-logo {
+    display: block
+}
+
+.wob .menu > a:before {
+    background-position: -162px -22px
+}
+
+.wob .navLinks .arrow:before {
+    background-position: -137px -67px
+}
+
+.wob .titlebar .downloadMobileApp a:before {
+    background-position: -279px 0
+}
+
+.wob .carouselBlock.before a, .wob .carouselBlock.before a:before {
+    -webkit-transition: inherit;
+    transition: inherit
+}
+
+.wob #nav li a.active::after, .wob #nav li a:hover::after, .wob #nav li.focus a::after, .wob #nav li:hover > a::after {
+    border-color: #ff0
+}
+
+.wob #header {
+    background: #000
+}
+
+.wob .subWhyJoin {
+    background: #222
+}
+
+.wob #nav li .subWhyJoin a, .wob #nav li.parent .headSubMenuRight .tabContainer a.readmore {
+    color: #ff0
+}
+
+.wob #nav li.parent .headSubMenuRight a:hover, .wob #nav li.parent .headSubMenuRight li.r-tabs-state-active a {
+    color: #ff0
+}
+
+.wob .headSubMenuRight .tabContainer {
+    border-color: #ccc
+}
+
+.wob .tabber {
+    background: #000
+}
+
+    .wob .tabber .tabNav li a {
+        background: #111
+    }
+
+.wob .innerContent .executiveBranchList .item-info, .wob .item-info {
+    background-color: rgba(0,0,0,.7)
+}
+
+    .wob .item-info h2 a:hover, .wob .r-tabs .owl-carousel .item:hover h2 a {
+        color: #80ff00
+    }
+
+.wob .tabber .tabNav li a:hover::before, .wob .tabber .tabNav li.r-tabs-state-active a::before {
+    background-position: -160px -123px
+}
+
+.wob .headSubMenuRight .tabber .tabNav li a:hover::before, .wob .headSubMenuRight .tabber .tabNav li.r-tabs-state-active a::before {
+    background-position: -40px 3px
+}
+
+.wob .conRecurtBlock {
+    background: #000
+}
+
+.wob .conRecurt h2 {
+    color: #fff
+}
+
+.wob .applyOnline {
+    background: #111;
+    border-color: #444
+}
+
+    .wob .applyOnline a::before {
+        background-position: -109px -118px
+    }
+
+    .wob .applyOnline a::after {
+        background-position: -72px -33px
+    }
+
+    .wob .applyOnline.emailUs a::before {
+        background-position: -135px -118px
+    }
+
+.wob .titlebar .mainTitle, .wob .titlebar h1 {
+    color: #80ff00
+}
+
+.wob .button, .wob button, .wob input[type=button], .wob input[type=reset], .wob input[type=submit] {
+    background-color: #333;
+    border: 1px solid #4c4c4c;
+    color: #80ff00
+}
+
+    .wob .button:hover, .wob button:hover, .wob input[type=button]:hover, .wob input[type=reset]:hover, .wob input[type=submit]:hover {
+        background-color: #4c4c4c;
+        border: 1px solid #333
+    }
+
+.wob .fiveBlockbtmBg h3 a:hover, .wob .imgBlock:hover .fiveBlockbtmBg h3 a {
+    background: #111;
+    color: #80ff00
+}
+
+.wob .fiveBlockbtmBg:hover, .wob .imgBlock:hover .fiveBlockbtmBg {
+    border-color: #434343
+}
+
+.wob .eligFull #amieligible_form input[type=submit], .wob .r-tabs .owl-carousel .item .active .item-info, .wob .r-tabs .owl-carousel .item:hover .item-info {
+    background: #222
+}
+
+.wob .selectboxit-arrow-container {
+    background-position: -41px -218px
+}
+
+.wob .innerContent .faqTab .tabNav .r-tabs-state-active a, .wob .innerContent .faqTab .tabNav li a:hover, .wob .innerContent .resTab .tabNav .r-tabs-state-active a, .wob .innerContent .resTab .tabNav li a:hover {
+    color: #80ff00;
+    background-color: #222
+}
+
+.wob .emailUSForm {
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit
+}
+
+    .wob .emailUSForm .form-group .icheckbox {
+        height: 26px
+    }
+
+.wob .searchFormBlock .form-group input {
+    height: 36px
+}
+
+.sideContant {
+    float: left;
+    width: 73%
+}
+
+.boxBulletText {
+    border-left: 2px solid #2536bc;
+    padding-left: 20px
+}
+
+    .boxBulletText ul {
+        list-style: none;
+        padding: 0
+    }
+
+        .boxBulletText ul li {
+            margin-bottom: 5px;
+            padding: 2px 0 2px 20px;
+            background: url(../images/boxBulletText.png) left 7px no-repeat
+        }
+
+.asideBar {
+    float: right;
+    width: 272px
+}
+
+.subMenus {
+    background-color: #052f6d;
+    float: none;
+    list-style: outside none none;
+    padding: 19px 20px 10px;
+    margin-bottom: 20px
+}
+
+    .subMenus ul li {
+        background: rgba(0,0,0,0) none repeat scroll 0 0;
+        border-bottom: 1px solid #4a6485;
+        font-size: 1.071em;
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+        position: relative
+    }
+
+        .subMenus ul li a {
+            color: #fff;
+            display: block;
+            line-height: 18px;
+            padding: 8px 12px 8px 0;
+            position: relative;
+            text-decoration: none
+        }
+
+            .subMenus ul li a.active, .subMenus ul li a:hover {
+                color: #f3d509
+            }
+
+    .subMenus ul {
+        padding: 0;
+        margin-bottom: 0
+    }
+
+        .subMenus ul ul {
+            margin: 0
+        }
+
+            .subMenus ul ul li {
+                border-bottom: medium none;
+                border-top: 1px solid #4a6485;
+                padding-left: 20px
+            }
+
+        .subMenus ul > li:last-child {
+            border-bottom: medium none
+        }
+
+    .asideBar h3:before, .subMenus h3:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        -webkit-transition: .4s ease;
+        transition: .4s ease;
+        background: url(../images/sprite.png) left top no-repeat
+    }
+
+    .subMenus ul li.has-children .menuIc {
+        width: 20px;
+        height: 34px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        background: url(../images/sprite.png) -194px -291px no-repeat
+    }
+
+        .subMenus ul li.has-children .menuIc.active {
+            background-position: -194px -316px
+        }
+
+    .subMenus ul li.expanded > a:before {
+        width: 8px;
+        height: 5px;
+        background-position: -8px -803px
+    }
+
+    .subMenus ul li.expanded a:hover::before {
+        background-position: -8px -823px
+    }
+
+    .subMenus ul li.expanded li a:hover::before {
+        background-position: 0 -823px
+    }
+
+.innerContent .subMenus h3 {
+    color: #fff;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1.429em
+}
+
+.subMenus h3::before {
+    background-position: 2px -515px;
+    height: 50px;
+    left: 213px;
+    width: 50px
+}
+
+.asideBox {
+    background-color: #f2f2f2;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+    .asideBox h3 {
+        background-color: #24469d;
+        color: #fff;
+        margin: 0;
+        padding: 14px 20px 9px;
+        text-transform: uppercase;
+        position: relative;
+        font: 1.286em oswaldbook
+    }
+
+    .asideBox .asideBoxText {
+        display: inline-block;
+        padding: 10px 20px;
+        width: 100%;
+        color: #1f1f1f
+    }
+
+        .asideBox .asideBoxText a {
+            color: #1f1f1f;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%
+        }
+
+            .asideBox .asideBoxText a:hover {
+                color: #24469d
+            }
+
+.asideOnline::before {
+    background-position: 0 -370px !important;
+    height: 40px;
+    left: 230px !important;
+    position: absolute;
+    width: 40px
+}
+
+.findRecruiter::before {
+    background-position: 0 -416px !important;
+    height: 40px;
+    left: 230px !important;
+    position: absolute;
+    width: 40px
+}
+
+.asideGallery::before {
+    background-position: 0 -460px !important;
+    height: 40px;
+    left: 230px !important;
+    position: absolute;
+    width: 40px
+}
+
+.asideBox .centreBtn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px
+}
+
+.asideBox input {
+    font-size: 1em;
+    border: medium none
+}
+
+.wob #nav ul, .wob .breadCrumb, .wob .conRecurt .inputfield input, .wob .fieldDataLabel, .wob .r-tabs .owl-carousel .item, .wob .recruiterContactList ul li, .wob .recruiterContactList ul li:before, .wob .selectboxit-container.selectboxit-container, .wob .subMenus ul li, .wob .ui-datepicker td, .wob table, .wob td, .wob th, .wob.app .applicationStateNew .form-group #job-typeSelectBoxItContainer, .wob.app .applicationStateNew .form-group .formControl, .wob.app .formBlock, .wob.app .formContainer h4, .wob.app .selectBox .selectboxit-container .selectboxit-list li {
+    border-color: #444
+}
+
+.app .registerFormBlock .selectBox .selectboxit-arrow-container, .wob.app .selectBox .selectboxit-arrow-container {
+    background-position: -85px -136px
+}
+
+.wob .breadCrumb .first-item a {
+    background-color: #fff
+}
+
+    .wob .breadCrumb .first-item a:after {
+        border-left-color: #fff
+    }
+
+.wob .innerContent:before {
+    background-color: #80ff00
+}
+
+.wob .asideBar .asideBox .asideBoxText a:before {
+    background-position: -203px -197px
+}
+
+.wob .boxBulletText ul li {
+    background-image: url(../images/boxBulletText-dark.png)
+}
+
+.wob .innerBanner h2 {
+    background-color: rgba(0,0,0,.6)
+}
+
+.wob.app .formBlock .dashboardForm, .wob.app .previewTemplate .accordion .accordDetail {
+    -webkit-box-shadow: 0 0 3px #555;
+    box-shadow: 0 0 3px #555
+}
+
+.wob.app .selectBox .selectboxit-container .selectboxit {
+    height: 34px
+}
+
+.wob .backBtn:before {
+    border-right-color: #333
+}
+
+.wob .backBtn:hover:before {
+    border-right-color: #444
+}
+
+.wob.app .btns input[type=reset], .wob.app .btns input[type=submit]:hover, .wob.app .dashboardForm .btns .btn.blue.cancelBtn {
+    background-color: #222 !important
+}
+
+    .wob.app .btns input[type=reset]:hover {
+        background-color: #444 !important
+    }
+
+    .wob.app #online_application_form .btns input[type=reset], .wob.app #online_application_form .btns input[type=submit]:hover, .wob.app .applicationStateNew .form-group .btn.blue.cancelBtn, .wob.app .applicationStateNew .form-group .btn.blue:hover, .wob.app .dashboardForm .btns .btn.blue.cancelBtn:hover {
+        background-color: #111 !important
+    }
+
+        .wob .dataTables_paginate a:hover, .wob .dataTables_paginate span .current, .wob .pagination li a:hover, .wob .pagination li.active a, .wob .pagination li.current a, .wob.app #online_application_form .btns input[type=reset]:hover, .wob.app #online_application_form .btns input[type=submit], .wob.app .applicationStateNew .form-group .btn.blue, .wob.app .applicationStateNew .form-group .btn.blue.cancelBtn:hover {
+            background-color: #333 !important
+        }
+
+.wob.app.login #forgotpassword_form .label {
+    background: 0 0
+}
+
+.wob.app .viewApplicationStatus li.step1 {
+    background-color: #111
+}
+
+    .wob.app .viewApplicationStatus li.step1:after {
+        border-left-color: #111
+    }
+
+.wob.app .viewApplicationStatus li.step2 {
+    background-color: #222
+}
+
+    .wob.app .viewApplicationStatus li.step2:after {
+        border-left-color: #222
+    }
+
+.wob.app .viewApplicationStatus li.step3 {
+    background-color: #383838
+}
+
+    .wob.app .viewApplicationStatus li.step3:after {
+        border-left-color: #383838
+    }
+
+.wob.app .viewApplicationStatus li.step4 {
+    background-color: #444
+}
+
+    .wob.app .viewApplicationStatus li.step4:after {
+        border-left-color: #444
+    }
+
+.wob.app .viewApplicationStatus li.step5 {
+    background-color: #494949
+}
+
+    .wob.app .viewApplicationStatus li.step5:after {
+        border-left-color: #494949
+    }
+
+.wob.app .faqTab .tabNav li.r-tabs-state-active a, .wob.app .resTab .tabNav li.r-tabs-state-active a {
+    color: #000
+}
+
+.wob.app .faqTab .tabNav li.r-tabs-state-active a, .wob.app .resTab .tabNav li.r-tabs-state-active a {
+    background-color: #80ff00
+}
+
+.wob .ui-datepicker-trigger:hover {
+    border: none;
+    background-color: transparent
+}
+
+.wob #amieligible_form .ui-datepicker-trigger .calIcon, .wob .emailUSForm .ui-datepicker-trigger .calIcon, .wob.app .dashboardForm .ui-datepicker-trigger .calIcon {
+    background-position: 0 -126px
+}
+
+.wob .dataTables_paginate a, .wob .pagination li a {
+    color: #fff !important
+}
+
+.wob .dataTables_paginate a, .wob .dataTables_paginate span .current, .wob .pagination li.active a, .wob .pagination li.current a {
+    color: #80ff00 !important
+}
+
+.wob .app .searchEntry input, .wob .dataTables_filter input {
+    background: #000;
+    color: #fff;
+    border-color: #80ff00
+}
+
+.popupWrap {
+    display: none;
+    position: relative;
+    z-index: 98
+}
+
+    .popupWrap > .closePop {
+        width: 32px;
+        height: 32px;
+        padding: 8px 0 6px;
+        position: fixed;
+        right: 12px;
+        top: 12px;
+        z-index: 101;
+        color: #fff;
+        font: 15px proxima_novasemibold;
+        text-align: center;
+        text-decoration: none;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid #fff
+    }
+
+.popupOverlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #111;
+    background-color: rgba(0,0,0,.75)
+}
+
+.closePop:hover {
+    color: #fff
+}
+
+.popup {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    text-align: center;
+    -webkit-box-shadow: 0 0 4px #111;
+    box-shadow: 0 0 4px #111;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: #fff
+}
+
+    .popup h2 {
+        margin-bottom: 0;
+        color: #252525;
+        font-family: proxima_novasemibold
+    }
+
+    .popup p {
+        margin-bottom: 15px;
+        font-size: 1.071em;
+        text-align: left
+    }
+
+    .popup.cancleRegi {
+        text-align: center
+    }
+
+        .popup.cancleRegi .btn {
+            float: none;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 20px
+        }
+
+.popup_slide_window {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 71px 30px 40px;
+    height: 220px;
+    background: #fff;
+    position: relative;
+    text-align: center
+}
+
+    .popup_slide_window h2 {
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-family: oswaldbook;
+        color: #0f8ddd;
+        font-size: 22px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: #111b69;
+        color: #fff;
+        padding: 13px 0 13px 20px;
+        line-height: 22px;
+        text-align: left
+    }
+
+    .popup_slide_window ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0;
+        margin-top: 20px
+    }
+
+        .popup_slide_window ul li {
+            display: inline;
+            padding: 10px 10px;
+            color: #2376b2
+        }
+
+            .popup_slide_window ul li input {
+                margin-left: 0;
+                margin-right: 0;
+                opacity: 1 !important;
+                margin-top: 3px
+            }
+
+            .popup_slide_window ul li label {
+                font-family: oswaldbook;
+                text-transform: uppercase;
+                font-size: 15px;
+                width: 42px
+            }
+
+.clsBtn {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    font-weight: 700
+}
+
+.yesPopup {
+    margin-top: -5px
+}
+
+    .yesPopup input {
+        background: #0f8ddd;
+        border: 0;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 5px 10px;
+        -webkit-transition: .4s ease;
+        transition: .4s ease
+    }
+
+        .yesPopup input:hover {
+            background: #333
+        }
+
+        .yesPopup input[type=reset], .yesPopup input[type=submit] {
+            padding: 8px 20px
+        }
+
+.closePopWindow {
+    text-align: center;
+    margin: 10px auto 0
+}
+
+    .closePopWindow a {
+        background: #0f8ddd;
+        border: 0;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 8px 20px;
+        -webkit-transition: .4s ease;
+        transition: .4s ease;
+        display: inline-block;
+        text-decoration: none;
+        font-family: Arial,Helvetica,sans-serif
+    }
+
+        .closePopWindow a:hover {
+            background: #333;
+            color: #fff
+        }
+
+.scrollHide {
+    overflow: hidden
+}
+
+.slide-out-div {
+    width: 300px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    bottom: 0;
+    z-index: 991;
+    transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+    transition: all .4s ease;
+    -webk-transition: all .4s ease;
+    -moz-transition: all .4s ease
+}
+
+    .slide-out-div.open {
+        transform: translateX(0);
+        z-index: 999
+    }
+
+    .slide-out-div h3 {
+        cursor: pointer;
+        margin: 0;
+        margin-left: -40px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+        top: 10px;
+        background: #30a5ff;
+        color: #fff;
+        font-family: Arial,Helvetica,sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 0 0 5px 5px
+    }
+
+.clseBtn {
+    border: 2px solid #fff;
+    color: #fff;
+    background: #111b69;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    cursor: pointer;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    margin-top: 0;
+    margin-right: 5px
+}
+
+    .clseBtn:hover {
+        border: 2px solid #fff;
+        color: #fff;
+        background: #111b69
+    }
+
+.slide-out-div1 {
+    width: 450px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -6%;
+    bottom: 0;
+    z-index: 991;
+    transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transition: all .4s ease;
+    -webk-transition: all .4s ease;
+    -moz-transition: all .4s ease
+}
+
+    .slide-out-div1.open {
+        transform: translateX(0);
+        z-index: 999
+    }
+
+    .slide-out-div1 h3 {
+        cursor: pointer;
+        margin: 0;
+        margin-left: -74px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+        top: 83px;
+        background: #30a5ff;
+        color: #fff;
+        font-family: Arial,Helvetica,sans-serif;
+        text-transform: uppercase;
+        padding: 12px 9px 12px 10px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 0 0 5px 5px
+    }
+
+    .slide-out-div1 .availableApp {
+        padding-bottom: 10px
+    }
+
+    .slide-out-div1 .clseBtn {
+        top: 8px
+    }
+
+    .slide-out-div1 .popup_slide_window {
+        height: 357px;
+        padding: 55px 20px 40px
+    }
+
+.slide-out-div2 {
+    width: 350px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -12%;
+    bottom: 0;
+    z-index: 991;
+    transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transition: all .4s ease;
+    -webk-transition: all .4s ease;
+    -moz-transition: all .4s ease
+}
+
+    .slide-out-div2.open {
+        transform: translateX(0);
+        z-index: 999
+    }
+
+    .slide-out-div2 h3 {
+        cursor: pointer;
+        margin: 0;
+        margin-left: -52px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+        top: 61px;
+        background: #30a5ff;
+        color: #fff;
+        font-family: Arial,Helvetica,sans-serif;
+        text-transform: uppercase;
+        padding: 12px 9px 12px 10px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 0 0 5px 5px
+    }
+
+    .slide-out-div2 .availableApp {
+        padding-bottom: 10px
+    }
+
+    .slide-out-div2 .clseBtn {
+        top: 8px
+    }
+
+    .slide-out-div2 .popup_slide_window {
+        color: #000 !important;
+        height: 300px;
+        padding: 55px 20px 40px
+    }
+
+.wob .slide-out-div h3, .wob .slide-out-div2 h3 {
+    background: #222;
+    color: #80ff00
+}
+
+.slide-out-div3 h3 img {
+    padding: 6px
+}
+
+.slide-out-div3 {
+    width: 350px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -22%;
+    bottom: 0;
+    z-index: 991;
+    transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transition: all .4s ease;
+    -webk-transition: all .4s ease;
+    -moz-transition: all .4s ease
+}
+
+    .slide-out-div3.open {
+        transform: translateX(0);
+        z-index: 999
+    }
+
+    .slide-out-div3 h3 {
+        cursor: pointer;
+        margin: 0;
+        margin-left: -40px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+        top: 48px;
+        background: #30a5ff;
+        color: #fff;
+        font-family: Arial,Helvetica,sans-serif;
+        text-transform: uppercase;
+        padding: 4px;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 0 0 5px 5px
+    }
+
+    .slide-out-div3 .availableApp {
+        padding-bottom: 10px
+    }
+
+    .slide-out-div3 .clseBtn {
+        top: 8px
+    }
+
+    .slide-out-div3 .popup_slide_window {
+        color: #000 !important;
+        height: 190px;
+        padding: 55px 20px 40px
+    }
+
+.wob .slide-out-div h3, .wob .slide-out-div3 h3 {
+    background: #222;
+    color: #80ff00
+}
+
+.mobileBoxRow {
+    position: relative
+}
+
+.mobilePageContent .mobileBoxRow {
+    padding-bottom: 30px
+}
+
+.mobilePageContent h5 {
+    margin-bottom: 10px
+}
+
+.mobilePageContent .tableData th {
+    text-align: left
+}
+
+.mobileBoxRow .mobileImg {
+    width: 130px;
+    float: left;
+    position: relative;
+    z-index: 9;
+    padding: 34px 8px 42px;
+    background: url(../images/ifr-mobile-app-bg.png) no-repeat left top;
+    background-size: 100%
+}
+
+.mobileImgSlider {
+    height: 203px;
+    overflow: hidden
+}
+
+.mobileBoxRow {
+    padding: 10px 0 10px 0
+}
+
+    .mobileBoxRow .mobileText {
+        margin-left: -130px;
+        padding-left: 150px;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        text-align: justify;
+        font-size: 1.214em
+    }
+
+    .mobileBoxRow .ifrlogoIcon {
+        display: none;
+        height: 58px;
+        margin: 0 auto 10px;
+        width: 40px
+    }
+
+    .mobileBoxRow .adHeading {
+        color: #084986;
+        font-family: playfair_displayregular,Arial,Helvetica,sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        padding-bottom: 10px
+    }
+
+    .mobileBoxRow .mobileAdText p {
+        color: #222
+    }
+
+    .mobileBoxRow .appReadMoreLink {
+        color: #222
+    }
+
+#picasaID {
+    display: none
+}
+
+.nanoGalleryOuter {
+    margin-bottom: 0;
+    padding: 15px 25px 25px
+}
+
+.appIconRow {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #333;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.androidIcon, .iosIcon, .windowsIcon {
+    float: left;
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 3px;
+    text-align: left;
+    color: #fff !important
+}
+
+.iosIconText {
+    display: block;
+    font-size: 17px;
+    line-height: 18px;
+    font-family: oswaldbook
+}
+
+.androidIcon:after, .iosIcon:after, .windowsIcon:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 40px;
+    height: 42px
+}
+
+.joinIndianNavy {
+    width: 230px;
+    float: right;
+    margin-top: 21px;
+    -webkit-transition: 350ms ease;
+    transition: 350ms ease;
+    background-color: #0178c3;
+    border: 0
+}
+
+    .joinIndianNavy:hover {
+        background-color: #168ad5
+    }
+
+    .joinIndianNavy a {
+        height: 100%;
+        display: block;
+        color: #fff;
+        padding: 8px 13px 20px;
+        font: 1.429em/22px proxima_nova_rgbold;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: url(../images/indian-navy-flag.png) 96% bottom no-repeat
+    }
+
+        .joinIndianNavy a:hover {
+            color: #fff
+        }
+
+.sidePanel1 {
+    margin-top: -7px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 9
+}
+
+.socialLinks1 {
+    width: 42px;
+    list-style: none;
+    overflow: hidden;
+    margin: 5px 0 0;
+    padding: 0;
+    -webkit-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff
+}
+
+    .socialLinks1 li a:before {
+        background: url(../images/sprit-icon.png) no-repeat;
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 350ms ease 0s;
+        -webkit-transition: all 350ms ease 0s
+    }
+
+    .socialLinks1 li a {
+        height: 35px;
+        display: block;
+        overflow: hidden;
+        text-indent: -999em;
+        position: relative;
+        border-bottom: 1px solid #d3d3d3
+    }
+
+.socialLinks li a:hover {
+    background-color: #04116b
+}
+
+.socialLinks1 li:last-child a {
+    border-bottom: none
+}
+
+.socialLinks1 li a.fb:before {
+    width: 11px;
+    height: 20px;
+    left: 17px;
+    top: 8px;
+    background-position: -1px -99px
+}
+
+.socialLinks1 li a.tw:before {
+    width: 18px;
+    height: 16px;
+    left: 13px;
+    top: 10px;
+    background-position: -22px -99px
+}
+
+.socialLinks1 li a.tw:hover:before {
+    background-position: -91px -99px
+}
+
+.socialLinks1 li a.gp:before {
+    width: 19px;
+    height: 20px;
+    left: 13px;
+    top: 7px;
+    background-position: -49px -99px
+}
+
+.socialLinks1 li a.gp:hover:before {
+    background-position: -119px -99px
+}
+
+.fullDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 992;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease
+}
+
+    .fullDiv.fullDiv1 {
+        opacity: 1;
+        visibility: visible
+    }
+
+.applyOnline a:lang(hi) {
+    font-size: 1.1em;
+    padding: 40px 20px 40px 23px
+}
+
+    .applyOnline a:lang(hi):before {
+        left: 24px
+    }
+
+.conRecurt .inputbtn input:lang(hi) {
+    padding: 0 23px
+}
+
+#amieligible_form .ui-datepicker-trigger:lang(hi) {
+    top: 43px
+}
+
+div.subscribe label.subscribeCheck div.icheckbox span.error {
+    clear: both;
+    float: left;
+    font-size: 16px !important;
+    font-weight: 400;
+    margin-top: 22px;
+    width: 552px
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-size: 16px
+}
+
+    blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: .1em;
+        margin-right: .25em;
+        vertical-align: -.4em
+    }
+
+    blockquote p {
+        display: inline
+    }
+
+.author, .quoteAuthor {
+    color: #0f2f5f;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    font-family: proxima_nova_rgbold;
+    padding-left: 40px
+}
+
+.dashboardContent .sponsorLinks.cf {
+    float: right;
+    width: auto
+}
+
+    .dashboardContent .sponsorLinks.cf a {
+        float: left;
+        width: 100%;
+        margin-right: -25px;
+        padding-right: 28px
+    }
+
+.helpSection.AccountHeaderLinksHelpIcon {
+    float: left;
+    padding-left: 0
+}
+
+    .helpSection.AccountHeaderLinksHelpIcon a.tooltip {
+        height: 20px;
+        width: 25px;
+        padding-right: 0;
+        margin-right: 0;
+        position: relative;
+        z-index: 9
+    }
+
+.sponsorLinks.cf > br {
+    clear: both
+}
+
+.CplLinkSection, .SponsorLinkSection {
+    float: left
+}
+
+.wob.app img.loginBg {
+    display: block
+}
+
+.wob #amieligible_form .error, .wob .app .error, .wob .emailUSForm span.error, .wob .error {
+    color: #80ff00
+}
+
+.wob ::-webkit-input-placeholder {
+    color: #fff
+}
+
+.wob :-moz-placeholder {
+    color: #fff
+}
+
+.wob ::-moz-placeholder {
+    color: #fff
+}
+
+.wob :-ms-input-placeholder {
+    color: #fff
+}
+
+.wob ::-ms-input-placeholder {
+    color: #fff
+}
+
+.wob .ContactARecruiterFormBlock .selectboxit-container .selectboxit-list li a {
+    border-color: #444;
+    color: #fff
+}
+
+    .wob .ContactARecruiterFormBlock .selectboxit-container .selectboxit-list li a:hover {
+        background-color: #444
+    }
+
+.wob .ContactARecruiterFormBlock .selectboxit-container .selectboxit-list {
+    background-color: #222;
+    border: 1px solid #444;
+    box-shadow: 0 0 2px #777;
+    min-width: 100% !important
+}
+
+.wob .slide-out-div h3, .wob .slide-out-div1 h3 {
+    background: #222;
+    color: #80ff00
+}
+
+.wob .popup_slide_window {
+    background: #222
+}
+
+    .wob .popup_slide_window h2 {
+        background: #111
+    }
+
+.wob .clseBtn {
+    background: #222;
+    border: 2px solid #ccc
+}
+
+    .wob .clseBtn:hover {
+        background: #000;
+        border: 2px solid #444
+    }
+
+.wob .popup_slide_window ul li {
+    color: #fff
+}
+
+.wob .socialLinks1 {
+    background-color: #222
+}
+
+    .wob .socialLinks1 li a {
+        border-bottom: 1px solid #444
+    }
+
+.conRecurt .inputfield .form-group {
+    position: relative
+}
+
+.conRecurt .inputfield span.error {
+    bottom: -20px;
+    position: absolute
+}
+
+.wob .joinIndianNavy {
+    background-color: #333
+}
+
+.wob .mt-label {
+    background-color: #111
+}
+
+    .wob .mt-label:after {
+        border-color: transparent;
+        border-left-color: #111
+    }
+
+.wob .mt-news {
+    background-color: #444
+}
+
+    .wob .mt-news a {
+        color: #fff
+    }
+
+.wob .carrer-job-normal {
+    display: none
+}
+
+.wob .carrer-job-wob {
+    display: block
+}
+
+.carrer-job-wob {
+    display: none
+}
+
+.carrer-job-normal {
+    display: block
+}
+
+.wob.app .footerRight img {
+    display: inline-block
+}
+
+.wob .resTabNoJs .tabContent {
+    background-color: #333;
+    border-color: -moz-use-text-color #80ff00 #80ff00
+}
+
+.wob .resTabNoJs .tabNav {
+    border-bottom: 2px solid #80ff00
+}
+
+    .wob .resTabNoJs .tabNav li {
+        background-color: #111;
+        border-color: #80ff00 #80ff00 -moz-use-text-color
+    }
+
+        .wob .resTabNoJs .tabNav li a {
+            color: #fff
+        }
+
+            .wob .resTabNoJs .tabNav .r-tabs-state-active a, .wob .resTabNoJs .tabNav li a:hover {
+                background-color: #80ff00;
+                color: #111
+            }
+
+.wob blockquote {
+    background: #333 none repeat scroll 0 0;
+    border-left: 10px solid #222
+}
+
+.wob .author, .wob .quoteAuthor {
+    color: #fff
+}
+
+.wob .eligibleMain .selectboxit-container .selectboxit-list li a {
+    border-color: #444;
+    color: #fff
+}
+
+    .wob .eligibleMain .selectboxit-container .selectboxit-list li a:hover {
+        background-color: #444
+    }
+
+.wob .eligibleMain .selectboxit-container .selectboxit-list {
+    background-color: #222;
+    border: 1px solid #444;
+    box-shadow: 0 0 2px #777;
+    min-width: 100% !important
+}
+
+.wob .date_picker {
+    color: #fff
+}
+
+.wob .currentOpp .tabContent {
+    background-color: #333;
+    border-color: -moz-use-text-color #80ff00 #80ff00
+}
+
+.wob .currentOpp .resTab .tabNav .r-tabs-state-active a, .wob .currentOpp .resTab .tabNav li a:hover {
+    background-color: #80ff00;
+    color: #111
+}
+
+.currentOpp .tabContent p {
+    padding-left: 20px
+}
+
+.wob .eligibilityListForm input[type=email], .wob .eligibilityListForm input[type=number], .wob .eligibilityListForm input[type=password], .wob .eligibilityListForm input[type=search], .wob .eligibilityListForm input[type=tel], .wob .eligibilityListForm input[type=text], .wob .eligibilityListForm input[type=url], .wob .eligibilityListForm select, .wob .eligibilityListForm textarea {
+    background: #222;
+    border: 1px solid #333;
+    color: #fff
+}
+
+.wob .eligibilityListForm label {
+    color: #fff
+}
+
+.wob .colorowstyle tr:first-child td {
+    background-color: #000
+}
+
+.wob .colorowstyle tr > td:first-child {
+    background-color: #000
+}
+
+.wob .faqTab .accordion .accTrigger {
+    border-bottom: 2px solid #333;
+    background: #333 url(../images/plus-icon-wob.png) 97.5% center no-repeat
+}
+
+    .wob .faqTab .accordion .accTrigger a {
+        color: #fff
+    }
+
+    .wob .faqTab .accordion .accTrigger.active {
+        background-image: url(../images/minus-icon-wob.png);
+        background-color: #80ff00;
+        border-bottom: 2px solid #80ff00
+    }
+
+        .wob .faqTab .accordion .accTrigger.active a {
+            color: #000
+        }
+
+.wob .faqTab .accordion .accordDetail {
+    border: 1px solid #80ff00
+}
+
+.wob .faqTab .tabNav li {
+    background-color: #333;
+    border-color: #333 #333 -moz-use-text-color
+}
+
+    .wob .faqTab .tabNav li a {
+        color: #fff
+    }
+
+.wob .faqTab .tabNav {
+    border-bottom: 2px solid #333
+}
+
+.wob .innerContent .faqTab .tabNav .r-tabs-state-active a, .wob .innerContent .faqTab .tabNav li a:hover {
+    background-color: #80ff00;
+    color: #000
+}
+
+.wob .formGroupInWrap .formGroupIn input {
+    background-color: #444;
+    border-color: #666;
+    color: #fff
+}
+
+.accordion.contentAccordion .accTrigger {
+    margin-bottom: 15px;
+    text-transform: none;
+    border-bottom: 2px solid #cdcdcd;
+    background: #eee url(../images/plus-icon.png) 97.5% center no-repeat;
+    color: #393939
+}
+
+.accordion.contentAccordion .accTrigger {
+    display: block;
+    padding: 12px 60px 10px 25px;
+    text-decoration: none;
+    outline: 0;
+    font: 1.429em/30px oswaldbook
+}
+
+    .accordion.contentAccordion .accTrigger.active {
+        background-image: url(../images/minus-icon.png);
+        color: #052f6d
+    }
+
+.accordion.contentAccordion .accordDetail {
+    display: none;
+    margin: -15px 0 15px;
+    padding: 20px;
+    border: 1px solid #cdcdcd;
+    border-top: none
+}
+
+    .accordion.contentAccordion .accordDetail p:last-child {
+        margin-bottom: 0
+    }
+
+    .accordion.contentAccordion .accordDetail table {
+        margin-bottom: 0
+    }
+
+.accordion.contentAccordion .accTrigger::after {
+    display: none
+}
+
+.accordion.contentAccordion {
+    background: rgba(0,0,0,0) none repeat scroll 0 0 !important;
+    margin: 0
+}
+
+.wob .accordion.contentAccordion .accTrigger {
+    border-bottom: 2px solid #333;
+    background: #333 url(../images/plus-icon-wob.png) 97.5% center no-repeat;
+    color: #fff
+}
+
+    .wob .accordion.contentAccordion .accTrigger.active {
+        background-image: url(../images/minus-icon-wob.png);
+        background-color: #80ff00;
+        border-bottom: 2px solid #80ff00;
+        color: #000
+    }
+
+.wob .accordion.contentAccordion .accordDetail {
+    border: 1px solid #80ff00
+}
+
+.wob .responsiveTable .applyIcon {
+    background: url(../images/app-sprite-wob.png) -84px -185px no-repeat
+}
+
+    .wob .responsiveTable .applyIcon:hover {
+        background-position: -84px -206px
+    }
+
+.resetBtn, .viewAllLink:lang(hi) {
+    line-height: 28px
+}
+
+.wob .accordionField .accordion .accTrigger.active {
+    background-color: #80ff00;
+    color: #222
+}
+
+.wob .accordionField .accordion .accTrigger {
+    background-color: #333
+}
+
+.wob .accordionField .accTrigger.active:after {
+    background: url(../images/minus-icon-wob.png) 0 0 no-repeat
+}
+
+.wob table .accordion .accTrigger.active {
+    background-color: #80ff00;
+    color: #222
+}
+
+    .wob table .accordion .accTrigger.active:after {
+        background: url(../images/minus-icon-wob.png) 0 0 no-repeat
+    }
+
+.wob .backBtn {
+    background: #222 none repeat scroll 0 0 !important
+}
+
+    .wob .backBtn::before {
+        border-right-color: #222
+    }
+
+    .wob .backBtn:hover {
+        background: #444 none repeat scroll 0 0 !important
+    }
+
+.wob .dwnBtn {
+    background-color: #222
+}
+
+    .wob .dwnBtn:hover {
+        background-color: #444
+    }
+
+.wob .eventSearchFormBlock {
+    background-color: #222;
+    border-bottom: 2px solid #333
+}
+
+.wob .eventList li:nth-child(2n) {
+    background-color: #222
+}
+
+.wob .eventList li {
+    border-bottom: 1px solid #333
+}
+
+    .wob .eventDate p, .wob .eventList li .date {
+        color: #fff
+    }
+
+    .wob .eventList li p a {
+        color: #80ff00
+    }
+
+        .wob .eventList li p a:hover {
+            color: #80ff00
+        }
+
+.wob .eventDate strong {
+    color: #fff
+}
+
+.wob .eventDate p, .wob .eventList li .date {
+    color: #80ff00
+}
+
+.wob .socialLinks1 li a.fb::before {
+    background-position: -71px -99px
+}
+
+.wob .socialLinks1 li a.tw::before {
+    background-position: -91px -99px
+}
+
+.wob .socialLinks1 li a.gp::before {
+    background-position: -119px -99px
+}
+
+.socialLinks1 {
+    width: 42px;
+    list-style: none;
+    overflow: hidden;
+    margin: 5px 0 0;
+    padding: 0;
+    -webkit-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff
+}
+
+    .socialLinks1 li a:before {
+        background: url(../images/sprit-icon.png) no-repeat;
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 350ms ease 0s;
+        -webkit-transition: all 350ms ease 0s
+    }
+
+    .socialLinks1 li a {
+        height: 35px;
+        display: block;
+        overflow: hidden;
+        text-indent: -999em;
+        position: relative;
+        border-bottom: 1px solid #d3d3d3
+    }
+
+.socialLinks li a:hover {
+    background-color: #04116b
+}
+
+.socialLinks1 li:last-child a {
+    border-bottom: none
+}
+
+.socialLinks1 li a.fb:before {
+    width: 11px;
+    height: 20px;
+    left: 17px;
+    top: 8px;
+    background-position: -1px -99px
+}
+
+.socialLinks1 li a.fb:hover:before {
+    background-position: -71px -99px
+}
+
+.socialLinks1 li a.tw:before {
+    width: 18px;
+    height: 16px;
+    left: 13px;
+    top: 10px;
+    background-position: -22px -99px
+}
+
+.socialLinks1 li a.tw:hover:before {
+    background-position: -91px -99px
+}
+
+.socialLinks1 li a.gp:before {
+    width: 19px;
+    height: 20px;
+    left: 13px;
+    top: 7px;
+    background-position: -49px -99px
+}
+
+.socialLinks1 li a.gp:hover:before {
+    background-position: -119px -99px
+}
+
+.wob .socialLinks1 {
+    background-color: #222
+}
+
+    .wob .socialLinks1 li a.fb:hover, .wob .socialLinks1 li a.gp:hover, .wob .socialLinks1 li a.tw:hover {
+        background-color: #333
+    }
+
+    .wob .socialLinks1 li a {
+        border-bottom: 1px solid #444
+    }
+
+        .wob .socialLinks1 li a.fb::before {
+            background-position: -71px -99px
+        }
+
+        .wob .socialLinks1 li a.tw::before {
+            background-position: -91px -99px
+        }
+
+        .wob .socialLinks1 li a.gp::before {
+            background-position: -119px -99px
+        }
